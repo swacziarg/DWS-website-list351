@@ -11,26 +11,30 @@
 
 	<body style="text-align: center;">
 		<!--- Enter code below this comment. Remember all code you want to display to users needs to be between the <body> tags --> 
-            <header><h1>Deep Water Soloing</h1></header>
-            <nav>
+            <header class="site-header">
+            <div class="container header-inner">
+            <h1 class="brand">Deep Water Soloing</h1>
+            <nav class="site-nav">
                 <ul style="list-style-position: inside; padding-left: 0;">
                     <li><a href="https://en.wikipedia.org/wiki/Deep-water_soloing">DWS Wiki</a></li>
                     <li><a href="https://whitewater.org/activity/deep-water-solo/">US DWS</a></li>
                     <li><a href="https://rockandwatermallorca.com/en/activity/8/dws--deep-water-soloing-">Book a guide</a></li>
                 </ul>
             </nav>
+            </div>
+            </header>
             <main>
-                <div style="position: relative; padding: 4rem 1rem; color: white;">
+                <div class="hero" style="position: relative; padding: 4rem 1rem; color: white;">
                     <img src="images/pexels-francesco-sommacal-899699416-37529622.jpg" alt="Climber practicing deep water soloing above the sea" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;">
-                    <div style="position: relative; display: inline-block; background: rgba(0, 0, 0, 0.65); padding: 1rem; border-radius: 0.25rem;">
+                    <div class="container hero-content" style="position: relative; display: inline-block; background: rgba(0, 0, 0, 0.65); padding: 1rem; border-radius: 0.25rem;">
                     <h2>
                         Psicobloc: Climbing above water
                     </h2>
-                    <p>Climbing above water is the most freeing and fun way to climb!</p>
-                    <a href="https://rockandwatermallorca.com/en/activity/8/dws--deep-water-soloing-">Learn More</a>
+                    <p class="hero-subhead">Climbing above water is the most freeing and fun way to climb!</p>
+                    <a class="btn btn-dark" href="https://rockandwatermallorca.com/en/activity/8/dws--deep-water-soloing-">Learn More</a>
                     </div>
                 </div>
-                <section class="features" style="display: flex; gap: 1rem; justify-content: center;">
+                <section class="container features features-grid" style="display: flex; gap: 1rem; justify-content: center;">
                     <div class="feature">
                         <h3>Freedom of Movement</h3>
                         <p>DWS is the only way to safely climb long routes without a cumbersome rope.</p>
@@ -44,30 +48,44 @@
                         <p>You can bring a boat for DWS and host your family and friends for a beautiful boating day with an awesome activity.</p>
                     </div>
                 </section>
-                <section>
-                    <h2>Chris Sharma's First Ascent of Es Pontás</h2>
+                <section class="container featured">
+                    <h2 class="section-title">Chris Sharma's First Ascent of Es Pontás</h2>
                     <iframe width="1192" height="670" src="https://www.youtube.com/embed/cM8gO4IDN_s" title="Chris Sharma&#39;s First Ascent of Es Pontás, Mallorca" style="border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    <p>Chris Sharma is a pioneer of deep water soloing. With this video of his ascent of “Es Pontas” in Mallorca, he brought DWS to the climbing community. By showcasing the beautiful rock and environment of the climb, Chris was able to bring DWS to a new generation of climbers.</p>
+                    <p class="section-lede">Chris Sharma is a pioneer of deep water soloing. With this video of his ascent of “Es Pontas” in Mallorca, he brought DWS to the climbing community. By showcasing the beautiful rock and environment of the climb, Chris was able to bring DWS to a new generation of climbers.</p>
                 </section>
-                <section class="secondary-content" style="display: flex; gap: 1rem; justify-content: center;">
-                    <div class="secondary-block">
+                <section class="secondary-content container secondary secondary-grid" style="display: flex; gap: 1rem; justify-content: center;">
+                    <div class="secondary-block card">
+                    <div class="card-text">
                         <h3>Mallorca</h3>
                         <p>Mallorca is the premiere destination for DWS in the world. Most of the famous routes for DWS are there, because of the overhung cliffs and beautiful mediterranean climate.</p>
                     </div>
-                    <div class="secondary-block">
+                    </div>
+                    <div class="secondary-block card">
+                    <div class="card-text">
                         <h3>Equipment Needed</h3>   
                         <p>The only equipment needed are a pair of climbing shoes and a towel!</p>
                     </div>
+                    </div>
                 </section>
-                <section>
+                <section class="cta">
+                    <div class="container cta-inner">
                     <h3>Book a Guide</h3>
-                    <button>Book Now</button>
+                    <button class="btn btn-outline">Book Now</button>
+                    </div>
                 </section>
             </main> 
-            <footer>
+            <footer class="site-footer">
+                <div class="container footer-inner">
+                <div class="footer-left">
                 <p>I love DWS! Copyright &copy; 2023 DWS. All rights reserved.</p>
                 <p>Contact us at <a href="mailto:swacziarg@gmail.com">swacziarg@gmail.com</a>.</p>
+                </div>
+                <div class="footer-cols">
+                <div class="footer-col">
                 <p>For more information on this guide service, visit <a href="https://rockandwatermallorca.com/en/activity/8/dws--deep-water-soloing-">this guide service's webpage</a>.</p>
+                </div>
+                </div>
+                </div>
             </footer>
     </body>
 
