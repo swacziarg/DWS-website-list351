@@ -13,8 +13,8 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.5;
-  color: #222;
+  line-height: 1.6;
+  color: #000;
   background: #fff;
 }
 
@@ -46,22 +46,22 @@ a:hover { text-decoration: underline; }
 }
 
 .brand {
-  font-size: 28px;
-  font-weight: 700;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .brand .dot {
   /* TODO B (Color):
      Make the dot a light blue accent color (choose a readable blue).
   */
-  color: #2e9cd2;
+  color: #8C1010;
 }
 
 .site-nav a {
-  margin-left: 18px;
-  text-transform: uppercase;
-  font-size: 12px;
-  letter-spacing: 0.08em;
+  margin-left: 0;
+  text-transform: none;
+  font-size: 14px;
+  letter-spacing: normal;
   color: #444;
 }
 
@@ -86,7 +86,7 @@ a:hover { text-decoration: underline; }
   min-height: 360px;
   background-image:
     linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
-    url("https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=60");
+    url("images/pexels-francesco-sommacal-899699416-37529622.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -97,10 +97,10 @@ a:hover { text-decoration: underline; }
      Add vertical padding so it doesn't feel cramped.
   */
   text-align: center;
-  padding: 80px 0;
+  padding: 40px 24px;
 }
 
-.hero h1 {
+.hero h2 {
   margin: 0;
   /* TODO E (Typography):
      Make the headline large and uppercase.
@@ -117,7 +117,7 @@ a:hover { text-decoration: underline; }
      (e.g., font-size ~20–24px; color #555)
   */
   font-size: 24px;
-  color: #555;
+  color: #eee;
 }
 
 
@@ -138,7 +138,7 @@ a:hover { text-decoration: underline; }
      Make this a dark filled button with white text.
      (e.g., background #333; color #fff)
   */
-  background: #333;
+  background: #8C1010;
   color: #fff;
 }
 
@@ -147,14 +147,14 @@ a:hover { text-decoration: underline; }
      Make this an outlined button with a blue border and matching text.
      (e.g., border: 2px solid ...; color: ...; background: transparent)
   */
-  border: 2px solid #007bff;
-  color: #007bff;
+  border: 2px solid #8C1010;
+  color: #8C1010;
   background: transparent;
 }
 
 /* ===== Features (3 columns) ===== */
 .features {
-  padding: 42px 0;
+  padding: 48px 0;
 }
 
 .features-grid {
@@ -190,16 +190,16 @@ a:hover { text-decoration: underline; }
 
 /* ===== Featured content ===== */
 .featured {
-  padding: 42px 0 36px;
+  padding: 48px 24px;
   background: #f7f7f7;
 }
 
 .section-title {
   text-align: center;
-  margin: 0;
-  font-size: 18px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  margin: 0 0 24px;
+  font-size: 22px;
+  letter-spacing: normal;
+  text-transform: none;
 }
 
 .section-lede {
@@ -207,7 +207,7 @@ a:hover { text-decoration: underline; }
   max-width: 680px;
   margin: 10px auto 22px;
   color: #666;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .media {
@@ -225,7 +225,7 @@ a:hover { text-decoration: underline; }
 
 /* ===== Secondary content (2 cards) ===== */
 .secondary {
-  padding: 34px 0 44px;
+  padding: 48px 0;
 }
 
 .secondary-grid {
@@ -247,7 +247,7 @@ a:hover { text-decoration: underline; }
   flex: 1;
   border: 1px solid #eee;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
 }
 
 .card-text {
@@ -264,7 +264,7 @@ a:hover { text-decoration: underline; }
 .card-text p {
   margin: 0 0 14px;
   color: #666;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .card-image {
@@ -280,16 +280,16 @@ a:hover { text-decoration: underline; }
 
 /* Optional images (already provided) */
 .img-a {
-  background-image: url("https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=60");
+  background-image: url("images/pexels-ira-2300811-34430677.jpg");
 }
 .img-b {
-  background-image: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=60");
+  background-image: url("images/pexels-katya-wolf-8728658.jpg");
 }
 
 /* ===== CTA ===== */
 .cta {
   background: #f7f7f7;
-  padding: 42px 0;
+  padding: 48px 0;
 }
 
 .cta-inner {
@@ -326,10 +326,10 @@ a:hover { text-decoration: underline; }
 .footer-left {
   max-width: 360px;
   color: #666;
-  font-size: 12px;
+  font-size: 14px;
 }
 
-.footer-left a { color: #3a88a8; }
+.footer-left a { color: #8C1010; }
 
 .footer-cols {
   display: flex;
@@ -338,14 +338,14 @@ a:hover { text-decoration: underline; }
 
 .footer-col h4 {
   margin: 0 0 8px;
-  font-size: 12px;
+  font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }
 
 .footer-col a {
-  display: block;
-  font-size: 12px;
-  color: #666;
-  margin: 6px 0;
+  display: inline;
+  font-size: inherit;
+  color: #8C1010;
+  margin: 0;
 }
